@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Page of Filippos Kokkinos</title>
+    <link>fkokkinos.github.io/publication/</link>
+      <atom:link href="fkokkinos.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>fkokkinos.github.io/media/avatar.jpg</url>
+      <title>Publications</title>
+      <link>fkokkinos.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Learning monocular 3D reconstruction of articulated categories from motion</title>
+      <link>fkokkinos.github.io/publication/kokkinos-video-3-d/</link>
+      <pubDate>Wed, 23 Dec 2020 10:04:25 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-video-3-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters</title>
+      <link>fkokkinos.github.io/publication/pronina-wiener/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/pronina-wiener/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative Joint Image Demosaicking and Denoising Using a Residual Denoising Network</title>
+      <link>fkokkinos.github.io/publication/8668795/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/8668795/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative residual cnns for burst photography applications</title>
+      <link>fkokkinos.github.io/publication/kokkinos-2019-iterative/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-2019-iterative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pixel Adaptive Filtering Units</title>
+      <link>fkokkinos.github.io/publication/kokkinos-2019-pixel/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-2019-pixel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks</title>
+      <link>fkokkinos.github.io/publication/kokkinos-2018-eccv/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-2018-eccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tweester at SemEval-2017 Task 4: Fusion of Semantic-Affective and pairwise classification models for sentiment analysis in Twitter</title>
+      <link>fkokkinos.github.io/publication/kolovou-etal-2017-tweester/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kolovou-etal-2017-tweester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structural Attention Neural Networks for improved sentiment analysis</title>
+      <link>fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tweester at SemEval-2016 Task 4: Sentiment Analysis in Twitter Using Semantic-Affective Model Adaptation</title>
+      <link>fkokkinos.github.io/publication/palogiannidi-etal-2016-tweester/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/palogiannidi-etal-2016-tweester/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

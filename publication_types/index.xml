@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Page of Filippos Kokkinos</title>
+    <link>fkokkinos.github.io/publication_types/</link>
+      <atom:link href="fkokkinos.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Dec 2020 10:04:25 +0000</lastBuildDate>
+    <image>
+      <url>fkokkinos.github.io/media/avatar.jpg</url>
+      <title>Publication_types</title>
+      <link>fkokkinos.github.io/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>
