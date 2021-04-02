@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Page of Filippos Kokkinos</title>
-    <link>fkokkinos.github.io/publication_types/</link>
-      <atom:link href="fkokkinos.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fkokkinos.github.io/publication_types/</link>
+      <atom:link href="https://fkokkinos.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Dec 2020 10:04:25 +0000</lastBuildDate>
     <image>
-      <url>fkokkinos.github.io/media/avatar.jpg</url>
+      <url>https://fkokkinos.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publication_types</title>
-      <link>fkokkinos.github.io/publication_types/</link>
+      <link>https://fkokkinos.github.io/publication_types/</link>
     </image>
     
   </channel>
