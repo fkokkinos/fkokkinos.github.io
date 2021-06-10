@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Page of Filippos Kokkinos</title>
+    <link>fkokkinos.github.io/publication-type/0/</link>
+      <atom:link href="fkokkinos.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/fkokkinos.github.io/media/icon_hu70260d0bf182d98bbd9db3b3ecafb224_6530_512x512_fill_lanczos_center_2.png</url>
+      <title>0</title>
+      <link>fkokkinos.github.io/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>Learning monocular 3D reconstruction of articulated categories from motion</title>
+      <link>fkokkinos.github.io/publication/kokkinos-video-3-d/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-video-3-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To The Point: Correspondence-driven monocular 3D category reconstruction</title>
+      <link>fkokkinos.github.io/publication/kokkinos-ttp/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-ttp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pixel Adaptive Filtering Units</title>
+      <link>fkokkinos.github.io/publication/kokkinos-2019-pixel/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-2019-pixel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
