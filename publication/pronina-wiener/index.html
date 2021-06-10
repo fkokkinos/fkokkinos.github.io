@@ -1,15 +1,19 @@
 <!DOCTYPE html><html lang="en-us" >
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   
   
-    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
   
 
+  
+
+  
   
 
   
@@ -23,40 +27,40 @@
   
   
 
-  <meta name="author" content="Filippos Kokkinos" />
+  <meta name="author" content="Filippos Kokkinos">
 
   
   
   
     
   
-  <meta name="description" content="Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes; yet, the observed images typically suffer from blur and background noise. In this work, we propose a unifying framework of algorithms for Gaussian image deblurring and denoising. These algorithms are based on deep learning techniques for the design of learnable regularizers integrated into the Wiener-Kolmogorov filter. Our extensive experimentation line showcases that the proposed approach achieves a superior quality of image reconstruction and surpasses the solutions that rely either on deep learning or on optimization schemes alone. Augmented with the variance stabilizing transformation, the proposed reconstruction pipeline can also be successfully applied to the problem of Poisson image deblurring, surpassing the state-of-the-art methods. Moreover, several variants of the proposed framework demonstrate competitive performance at low computational complexity, which is of high importance for real-time imaging applications." />
+  <meta name="description" content="Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes; yet, the observed images typically suffer from blur and background noise. In this work, we propose a unifying framework of algorithms for Gaussian image deblurring and denoising. These algorithms are based on deep learning techniques for the design of learnable regularizers integrated into the Wiener-Kolmogorov filter. Our extensive experimentation line showcases that the proposed approach achieves a superior quality of image reconstruction and surpasses the solutions that rely either on deep learning or on optimization schemes alone. Augmented with the variance stabilizing transformation, the proposed reconstruction pipeline can also be successfully applied to the problem of Poisson image deblurring, surpassing the state-of-the-art methods. Moreover, several variants of the proposed framework demonstrate competitive performance at low computational complexity, which is of high importance for real-time imaging applications.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://fkokkinos.github.io/publication/pronina-wiener/" />
-
-  
-
-
-
-
-
-
+  <link rel="alternate" hreflang="en-us" href="fkokkinos.github.io/publication/pronina-wiener/">
 
   
 
 
 
 
+
+
+
+  
+
+
+
+
   
   
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
 
   
   
   
-    <meta name="theme-color" content="#1565c0" />
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -71,9 +75,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-
-    
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -84,29 +86,20 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
 
     
-    
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
-    
-      
-      
 
-      
-      
-
-      
     
-      
+    
       
 
       
@@ -115,6 +108,12 @@
       
     
       
+
+      
+      
+
+      
+    
       
 
       
@@ -123,6 +122,12 @@
       
     
       
+
+      
+      
+
+      
+    
       
 
       
@@ -131,6 +136,12 @@
       
     
       
+
+      
+      
+
+      
+    
       
 
       
@@ -139,6 +150,12 @@
       
     
       
+
+      
+      
+
+      
+    
       
 
       
@@ -147,6 +164,12 @@
       
     
       
+
+      
+      
+
+      
+    
       
 
       
@@ -155,6 +178,14 @@
       
     
       
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
       
 
       
@@ -163,46 +194,12 @@
       
     
       
-      
 
       
       
 
       
     
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
       
 
       
@@ -213,7 +210,6 @@
       
     
       
-      
 
       
       
@@ -221,13 +217,13 @@
       
     
       
-      
 
       
       
 
       
     
+
   
 
   
@@ -235,8 +231,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
     
   
 
@@ -244,10 +240,10 @@
   
   
   
-  
-  <link rel="stylesheet" href="/css/wowchemy.d352920a30b0d11fb8c727d5fc7d0978.css" />
+  <link rel="stylesheet" href="/fkokkinos.github.io/css/wowchemy.min.18a81fcba9746c6a8230584f1af667d5.css">
 
   
+
 
 
 
@@ -283,7 +279,6 @@
 
   gtag('js', new Date());
   gtag('config', 'UA-125828637-1', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
 
   
   document.addEventListener('click', onClickCallback, false);
@@ -294,27 +289,18 @@
 
   
 
-  
 
-
-
-
-  
   
   
 
   
 
-  
-    <link rel="manifest" href="/index.webmanifest" />
-  
+  <link rel="manifest" href="/fkokkinos.github.io/index.webmanifest">
+  <link rel="icon" type="image/png" href="/fkokkinos.github.io/images/icon_hu70260d0bf182d98bbd9db3b3ecafb224_6530_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/fkokkinos.github.io/images/icon_hu70260d0bf182d98bbd9db3b3ecafb224_6530_192x192_fill_lanczos_center_2.png">
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
+  <link rel="canonical" href="fkokkinos.github.io/publication/pronina-wiener/">
 
-  <link rel="canonical" href="https://fkokkinos.github.io/publication/pronina-wiener/" />
-
-  
   
   
   
@@ -325,24 +311,21 @@
     
   
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary_large_image">
   
-    <meta property="twitter:site" content="@filippos_kok" />
-    <meta property="twitter:creator" content="@filippos_kok" />
+  <meta property="twitter:site" content="@filippos_kok">
+  <meta property="twitter:creator" content="@filippos_kok">
   
-  <meta property="og:site_name" content="Page of Filippos Kokkinos" />
-  <meta property="og:url" content="https://fkokkinos.github.io/publication/pronina-wiener/" />
-  <meta property="og:title" content="Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters | Page of Filippos Kokkinos" />
-  <meta property="og:description" content="Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes; yet, the observed images typically suffer from blur and background noise. In this work, we propose a unifying framework of algorithms for Gaussian image deblurring and denoising. These algorithms are based on deep learning techniques for the design of learnable regularizers integrated into the Wiener-Kolmogorov filter. Our extensive experimentation line showcases that the proposed approach achieves a superior quality of image reconstruction and surpasses the solutions that rely either on deep learning or on optimization schemes alone. Augmented with the variance stabilizing transformation, the proposed reconstruction pipeline can also be successfully applied to the problem of Poisson image deblurring, surpassing the state-of-the-art methods. Moreover, several variants of the proposed framework demonstrate competitive performance at low computational complexity, which is of high importance for real-time imaging applications." /><meta property="og:image" content="https://fkokkinos.github.io/publication/pronina-wiener/featured.png" />
-    <meta property="twitter:image" content="https://fkokkinos.github.io/publication/pronina-wiener/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:site_name" content="Page of Filippos Kokkinos">
+  <meta property="og:url" content="fkokkinos.github.io/publication/pronina-wiener/">
+  <meta property="og:title" content="Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters | Page of Filippos Kokkinos">
+  <meta property="og:description" content="Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes; yet, the observed images typically suffer from blur and background noise. In this work, we propose a unifying framework of algorithms for Gaussian image deblurring and denoising. These algorithms are based on deep learning techniques for the design of learnable regularizers integrated into the Wiener-Kolmogorov filter. Our extensive experimentation line showcases that the proposed approach achieves a superior quality of image reconstruction and surpasses the solutions that rely either on deep learning or on optimization schemes alone. Augmented with the variance stabilizing transformation, the proposed reconstruction pipeline can also be successfully applied to the problem of Poisson image deblurring, surpassing the state-of-the-art methods. Moreover, several variants of the proposed framework demonstrate competitive performance at low computational complexity, which is of high importance for real-time imaging applications."><meta property="og:image" content="/fkokkinos.github.io/publication/pronina-wiener/featured.png">
+  <meta property="twitter:image" content="/fkokkinos.github.io/publication/pronina-wiener/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta
-        property="article:published_time"
-        content="2020-12-23T10:04:24&#43;00:00"
-      />
+      <meta property="article:published_time" content="2021-06-10T12:54:29&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-12-23T13:25:09&#43;00:00">
+    <meta property="article:modified_time" content="2020-12-23T13:33:29&#43;00:00">
   
 
   
@@ -364,16 +347,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://fkokkinos.github.io/publication/pronina-wiener/"
+    "@id": "fkokkinos.github.io/publication/pronina-wiener/"
   },
   "headline": "Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters",
   
   "image": [
-    "https://fkokkinos.github.io/publication/pronina-wiener/featured.png"
+    "/fkokkinos.github.io/publication/pronina-wiener/featured.png"
   ],
   
-  "datePublished": "2020-12-23T10:04:24Z",
-  "dateModified": "2020-12-23T13:25:09Z",
+  "datePublished": "2021-06-10T12:54:29Z",
+  "dateModified": "2020-12-23T13:33:29Z",
   
   "author": {
     "@type": "Person",
@@ -385,7 +368,7 @@
     "name": "Page of Filippos Kokkinos",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://fkokkinos.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
+      "url": "/fkokkinos.github.io/images/icon_hu70260d0bf182d98bbd9db3b3ecafb224_6530_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes; yet, the observed images typically suffer from blur and background noise. In this work, we propose a unifying framework of algorithms for Gaussian image deblurring and denoising. These algorithms are based on deep learning techniques for the design of learnable regularizers integrated into the Wiener-Kolmogorov filter. Our extensive experimentation line showcases that the proposed approach achieves a superior quality of image reconstruction and surpasses the solutions that rely either on deep learning or on optimization schemes alone. Augmented with the variance stabilizing transformation, the proposed reconstruction pipeline can also be successfully applied to the problem of Poisson image deblurring, surpassing the state-of-the-art methods. Moreover, several variants of the proposed framework demonstrate competitive performance at low computational complexity, which is of high importance for real-time imaging applications."
@@ -396,7 +379,9 @@
 
   
 
+
   
+
 
   
 
@@ -405,24 +390,49 @@
 
 
   <title>Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters | Page of Filippos Kokkinos</title>
+
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a539635283b3d0d306e258d5925b027b" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
 
   
   
   
   
   
-  
-  
-  
-  <script src="/js/wowchemy-init.min.82a2df885514d7a8250a5a85f0335ab9.js"></script>
+  <script src="/fkokkinos.github.io/js/wowchemy-init.js"></script>
 
-  
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
 
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
 
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
 
 
   <div class="page-header">
@@ -440,11 +450,11 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container-xl">
+  <div class="container">
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Page of Filippos Kokkinos</a>
+      <a class="navbar-brand" href="/fkokkinos.github.io/">Page of Filippos Kokkinos</a>
     </div>
     
 
@@ -457,7 +467,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Page of Filippos Kokkinos</a>
+      <a class="navbar-brand" href="/fkokkinos.github.io/">Page of Filippos Kokkinos</a>
     </div>
     
 
@@ -500,7 +510,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
+          <a class="nav-link " href="/fkokkinos.github.io/#about"><span>Home</span></a>
         </li>
 
         
@@ -537,7 +547,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/fkokkinos.github.io/#projects"><span>Projects</span></a>
         </li>
 
         
@@ -574,7 +584,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/fkokkinos.github.io/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -611,7 +621,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/fkokkinos.github.io/#contact"><span>Contact</span></a>
         </li>
 
         
@@ -641,7 +651,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/media/resume.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/fkokkinos.github.io/media/resume.pdf"><span>CV</span></a>
         </li>
 
         
@@ -654,13 +664,11 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
       
       
-        
-      
-
-      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
       
@@ -683,7 +691,6 @@
       </li>
       
 
-      
       
 
     </ul>
@@ -770,7 +777,6 @@
   
   
   
-  
 
   
   
@@ -779,6 +785,17 @@
 
     
 
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -799,30 +816,30 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650188.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650188.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/pronina-wiener/cite.bib">
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/fkokkinos.github.io/publication/pronina-wiener/cite.bib">
   Cite
-</a>
+</button>
 
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/vpronina/DeepWienerRestoration" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/vpronina/DeepWienerRestoration" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://vpronina.github.io/resources/project.htm" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://vpronina.github.io/resources/project.htm" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -846,7 +863,7 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://vpronina.github.io/resources/1911.10989-supp.pdf" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://vpronina.github.io/resources/1911.10989-supp.pdf" target="_blank" rel="noopener">
     
     Supplementary
   </a>
@@ -875,7 +892,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
+            <a href="fkokkinos.github.io/publication/#1">
               Conference paper
             </a>
           </div>
@@ -924,7 +941,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://fkokkinos.github.io/publication/pronina-wiener/&amp;text=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=fkokkinos.github.io/publication/pronina-wiener/&amp;text=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -937,7 +954,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://fkokkinos.github.io/publication/pronina-wiener/&amp;t=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=fkokkinos.github.io/publication/pronina-wiener/&amp;t=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -950,7 +967,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters&amp;body=https://fkokkinos.github.io/publication/pronina-wiener/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters&amp;body=fkokkinos.github.io/publication/pronina-wiener/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -963,7 +980,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://fkokkinos.github.io/publication/pronina-wiener/&amp;title=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=fkokkinos.github.io/publication/pronina-wiener/&amp;title=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -976,7 +993,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters%20https://fkokkinos.github.io/publication/pronina-wiener/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters%20fkokkinos.github.io/publication/pronina-wiener/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -989,7 +1006,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://fkokkinos.github.io/publication/pronina-wiener/&amp;title=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=fkokkinos.github.io/publication/pronina-wiener/&amp;title=Microscopy%20Image%20Restoration%20with%20Deep%20Wiener-Kolmogorov%20Filters" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1053,15 +1070,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/kokkinos-2018-eccv/">Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks</a></li>
+      <li><a href="fkokkinos.github.io/publication/kokkinos-2018-eccv/">Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks</a></li>
       
-      <li><a href="/publication/kokkinos-video-3-d/">Learning monocular 3D reconstruction of articulated categories from motion</a></li>
+      <li><a href="fkokkinos.github.io/publication/kokkinos-ttp/">To The Point: Correspondence-driven monocular 3D category reconstruction</a></li>
       
-      <li><a href="/publication/kokkinos-2019-pixel/">Pixel Adaptive Filtering Units</a></li>
+      <li><a href="fkokkinos.github.io/publication/kokkinos-video-3-d/">Learning monocular 3D reconstruction of articulated categories from motion</a></li>
       
-      <li><a href="/publication/kokkinos-potamianos-2017-structural/">Structural Attention Neural Networks for improved sentiment analysis</a></li>
+      <li><a href="fkokkinos.github.io/publication/kokkinos-2019-pixel/">Pixel Adaptive Filtering Units</a></li>
       
-      <li><a href="/publication/palogiannidi-etal-2016-tweester/">Tweester at SemEval-2016 Task 4: Sentiment Analysis in Twitter Using Semantic-Affective Model Adaptation</a></li>
+      <li><a href="fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/">Structural Attention Neural Networks for improved sentiment analysis</a></li>
       
     </ul>
   </div>
@@ -1080,9 +1097,6 @@
     
     <div class="container">
       <footer class="site-footer">
-
-  
-
   
 
   <p class="powered-by">
@@ -1101,13 +1115,10 @@
     
     
     
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
     
   </p>
 </footer>
@@ -1148,7 +1159,6 @@
     
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
       
@@ -1156,8 +1166,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       
 
-      
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
 
@@ -1173,6 +1183,55 @@
 
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/fkokkinos.github.io/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
     
@@ -1187,14 +1246,6 @@
 
     
     
-    
-    
-
-    
-    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
-
-    
-    
 
     
     
@@ -1205,7 +1256,13 @@
     
     
     
-    <script src="/en/js/wowchemy.min.3a472d6cee2a043c75d198e029e765d6.js"></script>
+    
+      
+    
+    
+    
+    
+    <script src="/fkokkinos.github.io/js/wowchemy.min.abf79d5abd9391a904c9b122bfe98c04.js"></script>
 
     
 

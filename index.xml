@@ -2,45 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Page of Filippos Kokkinos</title>
-    <link>https://fkokkinos.github.io/</link>
-      <atom:link href="https://fkokkinos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>fkokkinos.github.io/</link>
+      <atom:link href="fkokkinos.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Page of Filippos Kokkinos</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Dec 2020 10:04:25 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://fkokkinos.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>fkokkinos.github.io/media/avatar.jpg</url>
       <title>Page of Filippos Kokkinos</title>
-      <link>https://fkokkinos.github.io/</link>
+      <link>fkokkinos.github.io/</link>
     </image>
     
     <item>
       <title>Learning monocular 3D reconstruction of articulated categories from motion</title>
-      <link>https://fkokkinos.github.io/publication/kokkinos-video-3-d/</link>
-      <pubDate>Wed, 23 Dec 2020 10:04:25 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/kokkinos-video-3-d/</guid>
+      <link>fkokkinos.github.io/publication/kokkinos-video-3-d/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-video-3-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To The Point: Correspondence-driven monocular 3D category reconstruction</title>
+      <link>fkokkinos.github.io/publication/kokkinos-ttp/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>fkokkinos.github.io/publication/kokkinos-ttp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters</title>
-      <link>https://fkokkinos.github.io/publication/pronina-wiener/</link>
+      <link>fkokkinos.github.io/publication/pronina-wiener/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/pronina-wiener/</guid>
+      <guid>fkokkinos.github.io/publication/pronina-wiener/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iterative Joint Image Demosaicking and Denoising Using a Residual Denoising Network</title>
-      <link>https://fkokkinos.github.io/publication/8668795/</link>
+      <link>fkokkinos.github.io/publication/8668795/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/8668795/</guid>
+      <guid>fkokkinos.github.io/publication/8668795/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://fkokkinos.github.io/slides/example/</link>
+      <link>fkokkinos.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/slides/example/</guid>
+      <guid>fkokkinos.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -167,57 +175,57 @@ Three
     
     <item>
       <title>Iterative residual cnns for burst photography applications</title>
-      <link>https://fkokkinos.github.io/publication/kokkinos-2019-iterative/</link>
+      <link>fkokkinos.github.io/publication/kokkinos-2019-iterative/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/kokkinos-2019-iterative/</guid>
+      <guid>fkokkinos.github.io/publication/kokkinos-2019-iterative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pixel Adaptive Filtering Units</title>
-      <link>https://fkokkinos.github.io/publication/kokkinos-2019-pixel/</link>
+      <link>fkokkinos.github.io/publication/kokkinos-2019-pixel/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/kokkinos-2019-pixel/</guid>
+      <guid>fkokkinos.github.io/publication/kokkinos-2019-pixel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks</title>
-      <link>https://fkokkinos.github.io/publication/kokkinos-2018-eccv/</link>
+      <link>fkokkinos.github.io/publication/kokkinos-2018-eccv/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/kokkinos-2018-eccv/</guid>
+      <guid>fkokkinos.github.io/publication/kokkinos-2018-eccv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tweester at SemEval-2017 Task 4: Fusion of Semantic-Affective and pairwise classification models for sentiment analysis in Twitter</title>
-      <link>https://fkokkinos.github.io/publication/kolovou-etal-2017-tweester/</link>
+      <link>fkokkinos.github.io/publication/kolovou-etal-2017-tweester/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/kolovou-etal-2017-tweester/</guid>
+      <guid>fkokkinos.github.io/publication/kolovou-etal-2017-tweester/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Structural Attention Neural Networks for improved sentiment analysis</title>
-      <link>https://fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/</link>
+      <link>fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/</link>
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/</guid>
+      <guid>fkokkinos.github.io/publication/kokkinos-potamianos-2017-structural/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tweester at SemEval-2016 Task 4: Sentiment Analysis in Twitter Using Semantic-Affective Model Adaptation</title>
-      <link>https://fkokkinos.github.io/publication/palogiannidi-etal-2016-tweester/</link>
+      <link>fkokkinos.github.io/publication/palogiannidi-etal-2016-tweester/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/publication/palogiannidi-etal-2016-tweester/</guid>
+      <guid>fkokkinos.github.io/publication/palogiannidi-etal-2016-tweester/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://fkokkinos.github.io/post/getting-started/</link>
+      <link>fkokkinos.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://fkokkinos.github.io/post/getting-started/</guid>
+      <guid>fkokkinos.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -238,12 +246,29 @@ Three
 
 
 
-&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
-    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+&lt;figure id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; data-caption=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+
+
+  &lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
